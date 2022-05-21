@@ -28,6 +28,18 @@ Link: https://apps.apple.com/us/app/divvy-window-manager/id413857545?mt=12
 - [ ] Setup bookmarks with keywords
 
 
+## Git
+
+- [ ] Aliases
+    - [ ] `git m`: `git checkout master`
+    - [ ] `git wip`: `git add . && git commit -m 'wip'`
+    - [ ] `git rsh`: `git reset --soft HEAD~1`
+    - [ ] `git sur`: `git submodule init && git submodule update --recursive`
+    - [ ] `git pu`: `git push --set-upstream origin <BRANCH_NAME>`
+    - [ ] `git wipe`: `git reset HEAD . && git checkout -- .`
+- [ ] Settings
+    - [ ] `git config --global rerere.enabled true`
+
 ## iTerm
 
 Link: https://iterm2.com/downloads.html
@@ -55,9 +67,10 @@ Link: https://iterm2.com/downloads.html
 - [ ] Install Monokai (https://github.com/halcyonmobile/xcode-monokai-revisited)
 - [ ] Line length indicator 100
 - [ ] Disable Cmd+Shift+P
-- [ ] Navigation > Command-click on Code: Jumps to Definition
-- [ ] Navigation > Optional Navigation: Uses Second Editor
-- [ ] Navigation > Double-click Navigation: Same as Click
+- [ ] Settings > Navigation:
+    - [ ] Command-click on Code: Jumps to Definition
+    - [ ] Optional Navigation: Uses Second Editor
+    - [ ] Double-click Navigation: Same as Click
 
 
 ## System Preferences
